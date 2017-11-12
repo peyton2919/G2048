@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">G2048</string>
+    <string name="g2048_launcher_title">Game 2048</string>
+    <string name="g2048_game_scroe">scroe</string>
+    <string name="g2048_game_supremeScore">supremeScore</string>
+    <string name="g2048_game_step">step</string>
+</resources>

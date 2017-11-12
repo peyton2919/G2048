@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical" >
+    
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/start_game_2048_1"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+	    android:layout_marginRight="5dp" 
+	    android:layout_marginTop="30dp"
+	    android:layout_marginEnd="10dp"
+	    android:layout_gravity="center_horizontal"
+	    android:id="@+id/ivStartGame2048"
+        />
+    
+    <RadioGroup 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:id="@+id/rgDifficulty"
+        >
+        <TextView 
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:textSize="16sp"
+            android:typeface="sans"
+            android:layout_marginRight="10dp"
+            android:text="游戏难度:"
+            />
+        <RadioButton 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:typeface="sans"
+            android:text="简单"
+            android:layout_marginRight="10dp"
+            android:id="@+id/rbDifficulty1"
+            />
+        
+        <RadioButton 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:typeface="sans"
+            android:text="一般"
+            android:layout_marginRight="10dp"
+            android:id="@+id/rbDifficulty2"
+            />
+        
+        <RadioButton 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:typeface="sans"
+            android:text="困难"
+            android:id="@+id/rbDifficulty3"
+            />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tv_game2048_explain"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
